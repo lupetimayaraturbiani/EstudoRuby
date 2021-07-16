@@ -3,7 +3,6 @@ def potencia (base, expo)
     puts "O resultado dessa potência é #{p}"
 end
 
-
 print "Digite a base: "
 base = gets.chomp.to_i
 print "Digite o expoente: "
