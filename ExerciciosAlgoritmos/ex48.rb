@@ -29,9 +29,9 @@ def calcularMedia(a1, a2)
     resp = gets.chomp
 
     if resp == "S"
-        txt_a1.call
+        print "Informe a nota da primeira avaliação do aluno: "
         a1 = gets.chomp.to_i
-        txt_a2.call
+        print "Informe a nota da segunda avaliação do aluno: "
         a2 = gets.chomp.to_i
         calcularMedia(a1, a2)
     end
